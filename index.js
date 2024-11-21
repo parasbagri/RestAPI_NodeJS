@@ -20,7 +20,6 @@ app.get("/users", (req, res) => {
     </ol>
   `);
 }); // HTML file ko send kar rha hai
-
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
